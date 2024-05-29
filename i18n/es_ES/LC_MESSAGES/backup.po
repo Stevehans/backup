@@ -1533,7 +1533,7 @@ msgstr ""
 #: Handlers/Backup/Multiple.php:120
 #, php-format
 msgid ""
-"Skpping %s which depends on framework because framework is a system "
+"Skipping %s which depends on framework because framework is a system "
 "requirement. Framework should be removed as a dependency"
 msgstr ""
 

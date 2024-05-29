@@ -117,7 +117,7 @@ class Multiple extends Common {
 							continue;
 						}
 						if($depend === 'framework') {
-							$msg = sprintf(_("Skpping %s which depends on framework because framework is a system requirement. Framework should be removed as a dependency"), $mod['rawname']);
+							$msg = sprintf(_("Skipping %s which depends on framework because framework is a system requirement. Framework should be removed as a dependency"), $mod['rawname']);
 							$this->log("\t".$msg,'WARNING');
 							continue;
 						}
