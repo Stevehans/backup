@@ -547,7 +547,7 @@ class RestoreBase extends \FreePBX\modules\Backup\Models\Restore{
 
 		foreach($data as $row) {
 			//Filter out missing columns
-			$row = array_filter($row, function($key) use($columns){
+			$row = array_filter($row, function($key) use($columns, $table){
 				if(!isset($columns[$key])) {
 					$this->log(sprintf(_("Column '%s' does not exist in %s, skipping"), $key, $table),'WARNING');
 					return false;
