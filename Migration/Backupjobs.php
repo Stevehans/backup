@@ -51,11 +51,11 @@ class Backupjobs extends Common{
 	public function migrate($mapping=[]){
 		$this->buildModuleData();
 		//$migrated = $this->Backup->getAll('migrationcompleted');
-		$migrated = !$migrated?[]:array_column($migrated,'id');
+		//$migrated = !$migrated?[]:array_column($migrated,'id');
 		foreach($this->backupJobs as $key => $backup){
-			if(!isset($backup['id']) && in_array($backup['id'], $migrated)){
-				continue;
-			}
+			//if(!isset($backup['id']) && in_array($backup['id'], $migrated)){
+			//	continue;
+			//}
 			$backupModules = $this->moduleData;
 			$backup['items']['exclude'] = is_array($backup['items']['exclude']) ? $backup['items']['exclude'] : [];
 			$storage = [];

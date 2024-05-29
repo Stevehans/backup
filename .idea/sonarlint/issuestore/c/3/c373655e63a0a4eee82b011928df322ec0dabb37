@@ -1,0 +1,4 @@
+
+	php:S37763"URefactor this function to reduce its Cognitive Complexity from 224 to the 15 allowed.(š™”ëJ$ca53be7c-84d8-429e-9b0f-b4311e100f1d
+±php:S1383"wThis function "migrate" has 187 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(š™”ëJ$312518fc-585a-4d9d-8896-d6500d761a46
+vphp:S131x"7Add a "case default" clause to this "switch" statement.(î¯¶ÊÿÿÿÿÿJ$ee760ccd-2aef-4ef2-860f-891b38751601
